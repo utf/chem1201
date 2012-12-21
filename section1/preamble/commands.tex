@@ -1,0 +1,33 @@
+% !TEX root = ../main.tex
+\newcommand{\super}[1]{\ensuremath{^{\textrm{#1}}}}
+\newcommand{\sub}[1]{\ensuremath{_{\textrm{#1}}}}
+\newcommand{\image}[3][]{%
+  \begin{figure}[H]%
+    \centering%
+    \includegraphics[height={#3}]{{#2}.eps}%
+    \ifx&#1&
+    \else
+      \caption*{#1}
+    \fi
+  \end{figure}%
+}
+\newcommand{\img}[2][]{%
+  \begin{figure}[H] %
+    \centering %
+    % \vspace*{-2pt}
+    \includegraphics{{#2}.eps} %
+    \ifx&#1&
+    \else
+      \caption*{#1}
+      % \vspace*{-8pt}
+    \fi
+    % \vspace*{-10pt}
+  \end{figure}%
+}
+
+\newcommand{\imginline}[1]{%
+    \begingroup %
+        \setbox0=\hbox{\includegraphics{{#1}.eps}}%
+        \parbox{\wd0}{\box0} %
+    \endgroup %
+}
