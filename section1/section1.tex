@@ -4,10 +4,10 @@
 \usepackage[scaled=0.90]{helvet} % Maybe use this for section headers?
 \usepackage{caption, courier, float, graphicx, setspace, url}
 
-\include{preamble/headerfooter}
-\include{preamble/commands}
-\include{preamble/typestyle}
-\include{preamble/title}
+\input{../preamble/headerfooter} % Use input instead of include as these are shared
+\input{../preamble/commands}     % and outside of the root path for this tex file.
+\input{../preamble/typestyle}
+\input{chapters/0-title}
 
 \graphicspath{{./figures/}}
 
