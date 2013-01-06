@@ -1,14 +1,16 @@
-Organic Chemistry First Year Notes
-==================================
+CHEM1201: Organic Chemistry
+===========================
 
-My notes for the CHEM1201 Organic Chemistry module at University College London
+My notes for the CHEM1201 Organic Chemistry module at University College London.
 
-*DISCLAIMER: These are latex versions of my handwritten notes and really are not useful for learning purposes, instead they serve for me as a useful reminder and revision tool. You have been warned!*
+*DISCLAIMER: These are latex versions of my handwritten notes and really arenot useful for learning purposes, instead for me, they serve for as a useful reminder and revision tool. You have been warned!*
 
 About
 -----
 
-I'm a third year Natural Science student at Univeristy College London and this christmas I decided that it'd be worth writing up my first and second year organic chem notes on the computer for revision purposes. This isn't supposed to be a comprehensive collection of notes and I can guarantee that I've made some mistakes copying it up. It may however prove to be useful to somebody so thats why I'm developing them on here.
+I'm a third year Natural Science student at Univeristy College London and this christmas I decided that it'd be worth writing up my first and second year organic chem notes in latex for revision purposes.
+
+This isn't supposed to be a comprehensive collection of notes and I can guarantee that I've made some mistakes copying it up. It may however prove to be useful to somebody so thats why I'm developing them on here.
 
 Technical Stuff
 ---------------
